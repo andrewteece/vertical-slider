@@ -114,6 +114,14 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  color: hsl(0, 0%, 13%);
+}
+
+button:focus {
+  outline: none;
+}
+
 .wrapper .slider__buttons button {
   position: absolute;
   left: 35%;
